@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nowrin.austcalendarplanner.DefaultEventActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="9 November,2017
+Thursday"
+                android:textColor="#111"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:text="Orientation and Reception for Fresher's only"
+                android:textColor="#5390df"
+                android:gravity="center"
+                android:layout_weight="2"/>
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="11 November,2017
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="All Classes Start"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="29 December,2017
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Midterm Break Start "
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="5 January,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Midterm Break Finish"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="6 January,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="All Classes Start After Midterm Break"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="14 February,2018
+Wednesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="All Classes Finish After Midterm Break"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+                       <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="15 February,2018
+Thursday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+
+                           <TextView
+                               android:id="@+id/text14"
+                               android:layout_width="240dp"
+                               android:layout_height="50dp"
+                               android:layout_weight="2"
+                               android:gravity="center"
+                               android:text="Farewell For Outgoing Students Only"
+                               android:textColor="#5390df"
+                               android:textSize="15dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="16 February,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Preparatory Leave Start"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text17"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="21 February,2018
+Wednesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text18"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Language Martyrs'Day"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text19"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="02 March,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text21"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Preparatory Leave Finish"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text22"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="03 March,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text23"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Semester Final Examinations Start"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text24"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="17 March,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text25"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Sheikh Mujibur Rahman's Birthday"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text26"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="22 March,2018
+Thursday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text27"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Semester Final Examinations Finish"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text34"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="24 March,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text35"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Result Publishing Day Begins"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text28"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="26 March,2018
+Monday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text29"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Independence Day"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text32"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="5 April,2018
+Thursday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text33"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Result Publishing Day Ends"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text36"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="7 April,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text37"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Clearance/Improvement/Carryover Examinations Begins"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text38"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="14 April,2018
+      Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text39"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Bengali New Year"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text40"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="19 April,2018
+Monday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text41"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Clearance/Improvement/Carryover Examinations Ends"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text42"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="21 April,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text43"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Tentative Date of Orientation and Reception for Spring 2018"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text44"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="22 April,2018
+Sunday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text45"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Tentative date of Class Start For Spring-2018"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text46"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="29 April,2018
+Sunday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text47"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Buddha Purnima"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text50"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="01 May,2018
+Tuesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text48"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="May Day"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text51"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="02 May,2018
+Wednesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text52"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Shab e-Barat"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text53"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="12 June,2018
+Tuesday"
+                android:textColor="#111"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/text54"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:text="Night of Destiny"
+                android:textColor="#5390df"
+                android:gravity="center"
+                android:layout_weight="2"/>
+        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text55"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="15 June,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text56"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Jumatul Bidah"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text57"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="15 June,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text58"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Fitr Holiday"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text59"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="16 June,2018
+Saturday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text60"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Fitr"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/text61"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="17 June,2018
+Sunday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text62"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Fitr Holiday"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+            <TextView
+                android:id="@+id/text63"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:text="15 August,2018
+Wednesday"
+                android:textColor="#111"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/text64"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:text="National Mourning Day"
+                android:textColor="#5390df"
+                android:gravity="center"
+                android:layout_weight="2"/>
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text65"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="21 August,2018
+Tuesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text66"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Adha Holiday"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text67"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="22 August,2018
+Wednesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text68"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Adha"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text69"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="23 August,2018
+Thuresday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text70"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid ul_Adha Day 2"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text71"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="2 September,2018
+Sunday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text72"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Janmastami"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text74"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="21 September,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text73"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Ashura"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text75"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="19 October,2018
+Friday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text76"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Durga Puja"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text77"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="21 November,2018
+Wednesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text78"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Eid e-Milad-un Nabi"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text79"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="16 December,2018
+Sunday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text80"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Victory Day"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="3">
+                <TextView
+                    android:id="@+id/text81"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:text="25 December,2018
+Tuesday"
+                    android:textColor="#111"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/text82"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
+                    android:textSize="15dp"
+                    android:text="Chrismas Day"
+                    android:textColor="#5390df"
+                    android:gravity="center"
+                    android:layout_weight="2"/>
+            </TableRow>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

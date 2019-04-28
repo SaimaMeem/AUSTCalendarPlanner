@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_daily_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:00 AM" />
+
+                            <Button
+                                android:id="@+id/addbtnd1"
+                                android:layout_width="285dp"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/button25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11:00 AM" />
+                            <Button
+                                android:id="@+id/addbtnd12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd14"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/button18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button27"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button29"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd18"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd19"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd20"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd21"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button33"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd23"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/button34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd24"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"  >
+
+                            <Button
+                                android:id="@+id/button35"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="11:00 PM" />
+                            <Button
+                                android:id="@+id/addbtnd25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="+"
+                                android:textColor="#ff161a" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+
+

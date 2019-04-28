@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/schedule"
+            android:title="Schedule" />
+
+            />
+        <item
+            android:id="@+id/nav_dayView"
+            android:icon="@drawable/dayview"
+            android:title="Day"
+           />
+        <item
+            android:id="@+id/nav_weeklyView"
+            android:icon="@drawable/weeklyview"
+            android:title="Week" />
+        <item
+            android:id="@+id/nav_monthView"
+            android:icon="@drawable/monthview"
+            android:title="Month" />
+        <item
+            android:id="@+id/nav_showEvents"
+            android:icon="@drawable/showevent"
+            android:title="All Events" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="Search" />
+
+
+
+
+    </group>
+
+
+</menu>

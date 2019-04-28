@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AUST Calendar &amp; Planner</string>
+    <string name="credits">Created and developed by:\nNowrin Yasmin\nSaima Sultana\nCSE Fall 2017\nAUST</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
